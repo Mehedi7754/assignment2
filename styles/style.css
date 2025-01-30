@@ -1,0 +1,504 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* nav bar */
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 130px;
+
+}
+.sc{
+  display: flex;
+  gap: 10px;
+}
+.img{
+  width: 62px;
+  height: 62px;
+}
+.sc-p{
+  color: rgb(17, 17, 17);
+font-size: 32px;
+font-weight: 700;
+margin-top: -16px;
+}
+
+
+.abt{
+  display: flex;
+  gap: 32px;
+}
+.home{
+  color: rgb(254, 163, 1);
+font-size: 20px;
+font-weight: 700;
+}
+.about{
+  color: rgb(1, 172, 253);
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+}
+.faciliti{
+  color: rgb(5, 212, 223);
+font-size: 20px;
+font-weight: 500;
+}
+.adm{
+  color: rgb(93, 88, 239);
+font-size: 20px;
+font-weight: 500;
+}
+
+.contact{
+  border-style: none;
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+background: rgb(254, 163, 1);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+}
+.bar{
+  display: none;
+}
+
+/* hero section */
+.hero-boy{
+  display: grid;
+  grid-template-columns:repeat(2,1fr) ;
+  margin-top: 100px;
+  margin-left: 115px;
+  gap: 180px;
+  justify-content: space-around;
+}
+.hero-lat{
+  margin-top: 120px;
+  gap: 1px;
+}
+
+.em{
+  color: rgb(254, 163, 1);
+}
+.tw{
+  color: rgb(5, 212, 223);
+}
+.big-l{
+font-size: 56px;
+font-weight: 700;
+}
+.sm-l{
+  color: rgb(17, 17, 17);
+font-size: 20px;
+font-weight: 400;
+}
+.btn-en{
+  background: rgb(17, 17, 17);
+}
+
+/* standard */
+.section{
+  background-image: url(../assets/bg.png);
+}
+
+
+/* standard curriculum */
+.sd{
+  color: rgb(0, 0, 0);
+font-size: 46px;
+font-weight: 700;
+margin-right: 300px;
+text-align: center;
+margin-top: 60px;
+}
+.sd-card-d{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 140px;
+  margin-right: 140px;
+  column-gap: 10px;
+}
+.sd-card-1{
+  
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+  
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  gap: 10px;
+
+width: 367.8px;
+height: 476.78px;
+}
+.sd-card-2{
+ 
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+width: 367.8px;
+height: 476.78px;
+}
+.sd-card-3{
+  
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+width: 367.8px;
+height: 476.78px;
+}
+.sd-img{
+  padding-top:55px ;
+  padding-left: 115px;
+}
+.card-title{
+  color: rgb(32, 32, 32);
+
+font-size: 24.52px;
+font-weight: 700;
+text-align: center;
+}
+.card-des{
+  color: rgb(128, 128, 128);
+  font-family: Raleway;
+  font-size: 15.09px;
+  font-weight: 500;
+  text-align: center;
+  padding: 40px;
+}
+.card-foot-1{
+  color: rgb(100, 200, 255);
+font-size: 15.09px;
+font-weight: 700;
+text-align: center;
+}
+.card-foot-2{
+  color: rgb(240, 170, 0);
+  font-size: 15.09px;
+  font-weight: 700;
+  text-align: center;
+}
+.card-foot-3{
+  color: rgb(135, 0, 255);
+  font-size: 15.09px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* story section */
+.story-section{
+  background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+}
+.story-sec-card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-left: 100px;
+  padding-right: 100px;
+  /* margin-top: 60px; */
+  margin-left: 100px;
+  margin-right: 240px;
+}
+.img-1{
+  /* width: 100%;
+  height: 100%; */
+  border-radius: 16px 16px 0px 0px;
+
+background: url(),rgb(217, 217, 217);
+
+}
+.st-card-1{
+width: 540.27px;
+height: 630.52px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.st-card{
+width: 290.69px;
+height: 301.61px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+
+.st-card-other{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  gap: 19px;
+}
+
+/* btn */
+.novem{
+width: 174.51px;
+height: 47.93px;
+left: 38.35px;
+top: 314.14px;
+border-radius: 47.93px;
+border-style: none;
+background: rgb(60, 216, 232);
+
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+
+}
+.novem-btn{
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.novem-2{
+  background: rgb(149, 178, 38);
+}
+
+/* title */
+.st-card-title{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+text-align: left;
+}
+.st-card-div{
+width: 402.49px;
+height: 69.98px;
+align-items: center;
+padding-left: 40px;
+}
+.st-card-des{
+  color: rgb(102, 102, 102);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+}
+
+.st-card-title{
+  color: rgb(0, 0, 0);
+font-size: 15.34px;
+font-weight: 700;
+text-align: left;
+}
+.ax{
+width: 190.68px;
+height: 47.93px;
+padding-left: 40px;
+
+}
+
+.view{
+  border-radius: 12px;
+background: rgb(17, 17, 17);
+
+width: 197px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+
+flex-grow: 0;
+margin: 80px 0px;
+
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.view-div{
+  margin-left: 730px;
+  padding-bottom: 60px;
+}
+
+/* footer */
+.foot{
+  
+height: 519px;
+margin-top: -79px;
+background-color: rgb(1, 172, 253);
+display: flex;
+justify-content:space-evenly;
+padding-top: 160px;
+}
+.kids{
+  color: rgb(255, 255, 255);
+}
+.bag{
+  display: flex;
+}
+
+.logo{
+width: 82.9px;
+height: 81.65px;
+padding-top: 8px;
+}
+.pizza{
+  
+width: 399.02px;
+height: 100px;
+left: 148px;
+top: 2812px;
+}
+.pizza-p{
+  color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+}
+.fb{
+  display: flex;
+}
+.abt-scool{
+  color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 700;
+
+}
+.hm{
+  color: rgb(255, 255, 255);
+
+font-size: 20px;
+font-weight: 500;
+}
+/* mobile */
+@media screen and (max-width:576px){
+
+  /* nav bar */
+  .abt{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+  .sc-p{
+    display: none;
+  }
+  .ext{
+    width:30.5px;
+    height: 4px;
+    left: 3.75px;
+    top: 7.5px;
+    background: rgb(17, 17, 17);
+    border-radius: 1px;
+    }
+    .nav-bar{
+      justify-content: space-between;
+      margin: 16px;
+      margin-top: 16px;
+    }
+    .bar{
+      display: flex;
+      box-sizing: border-box;
+      border: 0.5px solid rgb(254, 163, 1);
+    }
+
+    /* hero boy */
+    .hero-boy{
+      display: flex;
+      grid-template-columns:repeat(1,1fr) ;
+      margin: 12px;
+      gap: 2px;
+      flex-direction: column-reverse;
+     
+    }
+    .hero-lat{
+      margin-top: -15px;
+    }
+    .sm-div{
+      margin-top: -15px;
+    }
+    .btn-en-div{
+      padding-left: 85px;
+    }
+    .hero-kid-div{
+      margin-left: -35px;
+      width: 255.58px;
+    }
+
+    /* standard */
+    .sd-card-d{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin-left: 16px;
+      gap: 13px;
+      
+    }
+
+    
+    .sd{
+      color: rgb(0, 0, 0);
+font-size: 26px;
+font-weight: 700;
+text-align: center;
+padding-top: 40px;
+position: static;
+width: 261px;
+height: 33px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20;
+padding-left: 65px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+      
+    }
+
+    /* story */
+    /* .st-card{
+      
+      width: 173.09px;
+      height: 179.59px;
+      border-radius: 9.53px;
+       
+      background: rgb(255, 255, 255);
+          } */
+          .img-1{
+            border-radius: 16px 16px 0px 0px;
+          
+          background: url(),rgb(217, 217, 217);
+          
+          }
+     .st-card-1{
+      display: none;
+     }
+    .st-card-other{
+      display: grid;
+      grid-template-columns: repeat(2,2fr);
+      margin-left: -200px;
+      gap: 11px;
+    }
+    /* footer */
+    .foot{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      height: 642px;
+      padding-left: 16px;
+    }
+
+}
